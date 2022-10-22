@@ -1,6 +1,11 @@
 <?php
 
 class PHPsychrometric{
+	
+	private $T;
+	private $UR;
+	private $Z;
+	private $X;
 
 	function __construct($T=20, $UR=65, $Z=0, $X=null){
 		$this->T = $T;
