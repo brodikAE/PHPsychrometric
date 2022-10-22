@@ -14,15 +14,15 @@ The state properties include: wet bulb temperature (Tbu), dew point temperature 
 
 | Variable | Name | Formula | Require |
 | -------- | ---- | ------- | ------- |
-| Pws | Saturation vapour pressure | Pws($T) | dry bulb temperature (T) |
-| Pp  | Partial pressure of water vapour | Pp($UR, $Pws) | relative humidity (UR) and saturation vapour pressure (Pws) |
+| Pws | Saturation vapor pressure | Pws($T) | dry bulb temperature (T) |
+| Pp  | Partial pressure of water vapor | Pp($UR, $Pws) | relative humidity (UR) and saturation vapor pressure (Pws) |
 | Tbu | Wet bulb temperature | Tbu($T, $UR) | dry bulb temperature (T) and relative humidity (UR) |
 | Tr  | Dew point temperature | Tr($T, $P) | dry bulb temperature (T) and partial pressure of water vapor (Pp) |
 | V | Specific volume | V($T, $X, $Z) | dry bulb temperature (T), absolute humidity (X) and altitude (Z) |
 | H | Specific enthalpy | H($T, $X) | dry bulb temperature (T) and absolute humidity (X) |
 | Tbs | Dry bulb temperature | Tbs($H, $X) | relative humidity (UR) and absolute humidity (X) |
-| X | Absolute humidity | X($UR, $Pws, $Z) | relative humidity (UR), saturation vapour pressure (Pws) and altitude (Z) |
-| UR | Relative humidity | UR($Pws, $X, $Z) | saturation vapour pressure (Pws), absolute humidity (X) and altitude (Z) |
+| X | Absolute humidity | X($UR, $Pws, $Z) | relative humidity (UR), saturation vapor pressure (Pws) and altitude (Z) |
+| UR | Relative humidity | UR($Pws, $X, $Z) | saturation vapor pressure (Pws), absolute humidity (X) and altitude (Z) |
 
 ## Usage
 
