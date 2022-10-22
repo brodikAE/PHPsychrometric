@@ -17,7 +17,7 @@ The state properties include: wet bulb temperature (Tbu), dew point temperature 
 | Pws | Saturation vapor pressure | Pws($T) | dry bulb temperature (T) |
 | Pp  | Partial pressure of water vapor | Pp($UR, $Pws) | relative humidity (UR) and saturation vapor pressure (Pws) |
 | Tbu | Wet bulb temperature | Tbu($T, $UR) | dry bulb temperature (T) and relative humidity (UR) |
-| Tr  | Dew point temperature | Tr($T, $P) | dry bulb temperature (T) and partial pressure of water vapor (Pp) |
+| Tr  | Dew point temperature | Tr($T, $Pp) | dry bulb temperature (T) and partial pressure of water vapor (Pp) |
 | V | Specific volume | V($T, $X, $Z) | dry bulb temperature (T), absolute humidity (X) and altitude (Z) |
 | H | Specific enthalpy | H($T, $X) | dry bulb temperature (T) and absolute humidity (X) |
 | Tbs | Dry bulb temperature | Tbs($H, $X) | relative humidity (UR) and absolute humidity (X) |
